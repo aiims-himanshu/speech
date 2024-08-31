@@ -18,3 +18,16 @@ Task specific feeature (28)
         3. Semantic Fluency(1)
 
 Acoustic Fearures (220)
+    featrue set includes:
+        spectral features:
+                intensity
+                MFCC 0-12
+                ZRC
+        Voicing-related features
+                Fundamental frequency F0
+                HNR
+                SHIMMER 
+                JITTER
+                Durational features 
+                pauses and fillers 
+                phonation rate

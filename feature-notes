@@ -5,17 +5,18 @@ linguistic features are 328 divied into
 Generic linguistic features (300)
     7 categories:
         1. Discourse Mapping(18)
-        2. Local Coherence(15)
+        2. Local Coherence(15):- Ability to sustain attention and executive functions.
         3.Lexical complexity and richness(103)
-        4.Syntatic complexity(143)
-        5. Utterance cohesion(1)
-        6. Sentiment(9)
+        4.Syntatic complexity(143):- this can be used to predict symptoms of Depression.
+        5. Utterance cohesion(1):- rate of verb tense used (past tense) is known to be changed in depression of an person.
+        6. Sentiment(9):     emotional sate and speech are connected and sentiment score to predict Depressionand Anxiety.
         7. Word finding difficulty(11)
+
 Task specific feeature (28)
     3 speech task categories:
-        1. Phonemic fluency(2)
-        2. picture  Description(25)
-        3. Semantic Fluency(1)
+        1. Phonemic fluency(2):-used to measures of individual performance at the phonemic fluency.
+        2. picture  Description(25):-measures performanc at picture descrition task.
+        3. Semantic Fluency(1):- performance ate the senamntic fluency task.
 
 Acoustic Fearures (220)
     featrue set includes:

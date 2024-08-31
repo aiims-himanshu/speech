@@ -1,4 +1,8 @@
-Generic linguistic features 
+DEPAC :a courpus for Depression and Anxiety Detection from speech (https://aclanthology.org/2022.clpsych-1.1.mp4)
+
+linguistic features are 328 divied into 
+                        300 Generic features and 28 task specific features  
+Generic linguistic features (300)
     7 categories:
         1. Discourse Mapping(18)
         2. Local Coherence(15)
@@ -7,4 +11,10 @@ Generic linguistic features
         5. Utterance cohesion(1)
         6. Sentiment(9)
         7. Word finding difficulty(11)
-        
+Task specific feeature (28)
+    3 speech task categories:
+        1. Phonemic fluency(2)
+        2. picture  Description(25)
+        3. Semantic Fluency(1)
+
+Acoustic Fearures (220)

@@ -33,7 +33,7 @@ Generic linguistic features (300)
         -> Global speech graph measures:
             Density (D) = E′/N2, with E′ = E - (L1+PE);
             Diameter (DI) = Length of the longest shortest path between the node pairs of a network;
-            Average Shortest Path (ASP) = Average length of the shortest path between pairs of nodes of a network;
+            Average Shortest Path (ASP) = Average length of the shortest path between pairs of nodes of a network;
 
 
 Task specific feeature (28)

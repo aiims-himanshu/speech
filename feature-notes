@@ -13,6 +13,28 @@ Generic linguistic features (300)
         5. Utterance cohesion(1):- rate of verb tense used (past tense) is known to be changed in depression of an person.
         6. Sentiment(9):     emotional sate and speech are connected and sentiment score to predict Depressionand Anxiety.
         7. Word finding difficulty(11)
+    -> Discourse Mapping::
+        * graphical reprentation of disordered speech via distance graph or gragh based representation.
+        * it is done by converting speech into small chuncks called canonical form of speech (lexemes) lexeme is one word or sevral words of a sentence which do not have any message or meaning individually.
+    
+        -> elements of speech graph measures:
+            Nodes (N) = Number of elements in N;
+            Edges (E) = Number of elements in E;
+            Average Total Degree (ATD) = Mean ki = k in,i+k out,i, where the in-degree kin,i of the node i is defined as the number of edges pointing to i; its out-degree k out,i is defined as the number of edges departing from i;
+            Largest Connected Component (LCC) = Total number of nodes comprising the largest sub-graph in which each node is connected to each other one through a path in the sub-graph; the measure applies to the undirected version of the graph;
+            Largest Strongly Connected Component (LSC) = Total number of nodes comprising the largest sub-graph in which all nodes are mutually reachable, i.e., there is a path from node a to node b, and there is a path from node b to node a; the measure applies to the directed version of the graph;
+            Parallel Edges (PE) = Total number of edges linking the same pair of nodes more than once;
+            Loops with 1 Node (L1) = Trace of the adjacency matrix that represents the graph. Same as self-loops;
+            Loops with 2 Nodes (L2) = Trace of the squared adjacency matrix;
+            Loops with 3 Nodes (L3) = Trace of the cubed adjacency matrix;
+            Waking Nodes (WN) = Total number of nodes used to talk about waking events;
+            Waking Edges (WE) = Total number of edges used to talk about waking events.
+
+        -> Global speech graph measures:
+            Density (D) = E′/N2, with E′ = E - (L1+PE);
+            Diameter (DI) = Length of the longest shortest path between the node pairs of a network;
+            Average Shortest Path (ASP) = Average length of the shortest path between pairs of nodes of a network;
+
 
 Task specific feeature (28)
     3 speech task categories:
